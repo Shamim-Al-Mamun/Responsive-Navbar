@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+:root {
+  --primary: rgb(230, 230, 230, 0.9);
+  --secondary: rgb(26, 26, 26, 0.7);
+  --links: rgb(255, 128, 0, 0.9);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* base styles & title */
+body {
+  font-family: "Noto Serif";
+  background-color: var(--primary);
+  width: 100%;
+  height: 120vh;
+  background: url("./images/building.jpg") center no-repeat;
+  /* background: url("./images/bridge.jpg") center no-repeat; */
+  /* background: url("./images/mountain.jpg") center no-repeat; */
+  background-size: cover;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  user-select: none;
+}
+li {
+  list-style-type: none;
+}
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  text-decoration: none;
+  user-select: none;
+}
